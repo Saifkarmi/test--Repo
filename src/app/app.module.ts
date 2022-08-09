@@ -11,6 +11,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgxSpinnerModule } from "ngx-spinner";
+import { Test1Component } from './test1/test1.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { NgxSpinnerModule } from "ngx-spinner";
     FooterComponent,
     HomePageComponent,
     AboutUsComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    Test1Component
   ],
   imports: [
     BrowserModule,
